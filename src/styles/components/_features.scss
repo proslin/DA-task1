@@ -1,0 +1,68 @@
+.features {
+    font-family: 'Roboto', sans-serif;
+    &__wrap {
+        display:  flex;
+        margin-bottom: 174px;
+    }
+
+    &__col {
+       min-width: 370px;
+       height: 515px;
+       display:flex;
+       flex-direction: column;
+       align-items:center;
+       padding: 60px 38px 60px 38px;
+       box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.04);
+       border-radius: 5px;
+    }
+
+    &__btn {
+     font-size: 16px;
+    }
+    &__icon {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 35px;
+        background-repeat: no-repeat;
+        border: 8px solid $white;
+        background-color: $secondary;
+        border-radius: 50%;
+        opacity: 0.1;
+        box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.08);
+    }
+    &__title {
+        font-family: 'Lato', sans-serif; 
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    &__text {
+        color: #666666;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.btn-white {
+    width: 163px;
+  height: 50px;
+  background-color: $white;
+  border: 1px solid $secondary;
+  border-radius: 25px;
+  color: $secondary;
+  text-align: center;
+  line-height: 50px;
+}
+
+.data-icon {
+    background-image: url('/src/img/data.svg');
+}
+
+.machine-icon {
+    background-image: url('/src/img/machine learning.svg');  
+}
+
+.intelligence-icon {
+    background-image: url('/src/img/intelligence.svg');  
+}

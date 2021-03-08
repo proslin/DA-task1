@@ -1,0 +1,56 @@
+.about-us {
+    font-family: 'Roboto', sans-serif;
+    &__wrap {
+        display:flex;
+    }
+
+    &__img {
+        width: 470px;
+        height: 571px;
+        background-color:$primary;
+        margin-right: 155px;
+    }
+
+    &__about-company {
+        color: $secondary;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    &__title {
+        font-family: 'Lato', sans-serif; 
+        font-weight: 700px;
+        font-size: 46px;
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 38px;
+    }
+    &__list {
+        color: #666666;
+        font-size: 16px;
+        list-style-type: none;
+        margin-bottom: 48px;
+    }
+    &__list-item {
+        margin-bottom: 20px;
+    }
+
+    &__list-item:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+      display: block;
+    background-image: url('/src/img/vector.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      float: left;
+      margin-right: 23px;
+      position: relative;
+    }
+    &__btn {
+        height: 52px;
+        line-height: 52px;
+    }
+}
