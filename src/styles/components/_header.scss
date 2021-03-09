@@ -5,7 +5,7 @@
 
   &__container {
     max-width: 1508px;
-    width: 100%;
+   // width: 100%;
     margin: 0 auto;
   }
 
@@ -70,7 +70,7 @@
 
 ._container {
   max-width: 1508px;
-  width: 100%;
+  //width: 100%;
   margin: 0 auto;
 }
 
@@ -117,33 +117,3 @@
   line-height: 52px;
 }
 
-
-
-
-
-.Header {
-  &__container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    background: $white;
-    height: 50px;
-  }
-
-  &__navigation {
-    list-style: none;
-    line-height: 50px;
-  }
-
-  &__navigation-item {
-    display: inline-block;
-    margin-left: 15px;
-    color: $gray;
-
-    & a {
-      text-decoration: none;
-      font-size: 20px;
-    }
-  }
-}

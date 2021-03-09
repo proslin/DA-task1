@@ -12,3 +12,9 @@
 @import "./components/why-we";
 @import "./components/proposals";
 @import "./components/footer";
+
+._container {
+    max-width: 1508px;
+    //width: 100%;
+    margin: 0 auto;
+  }
