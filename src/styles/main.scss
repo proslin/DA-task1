@@ -5,8 +5,16 @@
 @import "./components/top-container";
 @import "./components/header";
 @import "./components/slider";
+@import "./components/features";
+@import "./components/aboutus";
 @import "./components/main-container";
 @import "./components/content";
 @import "./components/why-we";
 @import "./components/proposals";
 @import "./components/footer";
+
+._container {
+    max-width: 1508px;
+    //width: 100%;
+    margin: 0 auto;
+  }

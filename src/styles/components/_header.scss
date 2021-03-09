@@ -5,8 +5,12 @@
 
   &__container {
     max-width: 1508px;
-    width: 100%;
+   // width: 100%;
     margin: 0 auto;
+  }
+
+  &____wrapper {
+    width: 100%;
   }
 
   &__menu {
@@ -24,6 +28,7 @@
   &__slider-title {
     font-family: 'Lato', sans-serif; 
     font-weight: 900;
+    font-size: 56px;
     margin: 0px 0px 40px 0px;
     width: 522px;
   }
@@ -65,7 +70,7 @@
 
 ._container {
   max-width: 1508px;
-  width: 100%;
+  //width: 100%;
   margin: 0 auto;
 }
 
@@ -104,6 +109,7 @@
 .button {
   width: 148px;
   height: 52px;
+  display: inline-block;
   background-color: $secondary;
   border-radius: 28px;
   color: $white;
@@ -111,33 +117,3 @@
   line-height: 52px;
 }
 
-
-
-
-
-.Header {
-  &__container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    background: $white;
-    height: 50px;
-  }
-
-  &__navigation {
-    list-style: none;
-    line-height: 50px;
-  }
-
-  &__navigation-item {
-    display: inline-block;
-    margin-left: 15px;
-    color: $gray;
-
-    & a {
-      text-decoration: none;
-      font-size: 20px;
-    }
-  }
-}
