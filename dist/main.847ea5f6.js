@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\logo.svg":[["logo.cabda74f.svg","src/img/logo.svg"],"src/img/logo.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\data.svg":[["data.32eaf1c3.svg","src/img/data.svg"],"src/img/data.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\machine learning.svg":[["machine learning.de1f4095.svg","src/img/machine learning.svg"],"src/img/machine learning.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\intelligence.svg":[["intelligence.39ef8629.svg","src/img/intelligence.svg"],"src/img/intelligence.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\vector.svg":[["vector.cabdd857.svg","src/img/vector.svg"],"src/img/vector.svg"],"_css_loader":"C:/Users/1/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/1/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\logo.svg":[["logo.cabda74f.svg","src/img/logo.svg"],"src/img/logo.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\send icon.svg":[["send icon.ab93faff.svg","src/img/send icon.svg"],"src/img/send icon.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\data.svg":[["data.32eaf1c3.svg","src/img/data.svg"],"src/img/data.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\machine learning.svg":[["machine learning.de1f4095.svg","src/img/machine learning.svg"],"src/img/machine learning.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\intelligence.svg":[["intelligence.39ef8629.svg","src/img/intelligence.svg"],"src/img/intelligence.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\vector.svg":[["vector.cabdd857.svg","src/img/vector.svg"],"src/img/vector.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\fb.svg":[["fb.21eed844.svg","src/img/fb.svg"],"src/img/fb.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\tw.svg":[["tw.080463e0.svg","src/img/tw.svg"],"src/img/tw.svg"],"D:\\Lina\\Учеба\\Git\\DA-task1\\src\\img\\ins.svg":[["ins.9635de88.svg","src/img/ins.svg"],"src/img/ins.svg"],"_css_loader":"C:/Users/1/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/1/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60001" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57340" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

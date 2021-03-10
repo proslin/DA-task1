@@ -1,9 +1,113 @@
-.Footer {
-  background: $white;
-  padding: 20px;
-
-  &__copy {
-    color: $black;
-    text-align: center;
+.footer {
+  background-color: $primary;
+  font-family: 'Roboto', sans-serif;
+  color: $white;
+  padding-top: 374px;
+  font-size: 16px;
+  //padding: 20px;
+  &__container {
+    //display: flex;
   }
+
+  &__content {
+   display: flex;
+   padding-bottom: 119px;
+   margin: 0px -15px;
+  }
+  &__col {
+    margin: 0px 15px;
+  }
+
+  &__logo {
+    width: 370px;
+  }
+
+  &__logo-link {
+    margin-bottom: 31px;
+  }
+
+  &__logo-subtitle {
+    margin-bottom: 30px;
+    line-height: 30px;
+
+  }
+
+  &__socials {
+    display: flex;
+  }
+
+  &__social-icon {
+    width: 44px;
+    height: 44px;
+    background-size: 200%;
+    background-position: -22px -12px;
+    margin-right: 15px;
+    
+  }
+
+  &__socials-fb {
+   
+    background-image: url('/src/img/fb.svg');   
+  }
+
+  &__socials-tw {
+    background-image: url('/src/img/tw.svg');
+  }
+
+  &__socials-ins {
+    background-image: url('/src/img/ins.svg');
+  }
+
+  &__qlinks, &__about {
+    width: 170px;
+  }
+
+  &__qlinks-title {
+
+  }
+
+  &__list {
+    list-style-type: none;
+    
+  }
+
+  &__link {
+    color: $white;
+    display: inline-block;
+    padding: 12px 0px 12px 0px;
+    
+  }
+
+  &__title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 38px;
+  }
+
+ 
+
+  &__copyright {
+    
+    
+    border-top: 1px solid rgba(255,255,255, 0.08);
+    //opacity: 0.08;
+    color: $white;
+  }
+
+  &__copyright-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+    font-weight: 300;
+   // opacity: 1.0;
+  }
+
+  &__right {
+    color: $white;
+    opacity: 1.0;
+  }
+  
 }
+

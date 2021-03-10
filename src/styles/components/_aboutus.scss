@@ -1,5 +1,8 @@
 .about-us {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 311px;
+    position: relative;
+    
     &__wrap {
         display:flex;
     }
@@ -52,5 +55,9 @@
     &__btn {
         height: 52px;
         line-height: 52px;
+    }
+
+    &__btn:hover {
+        box-shadow: 0px 15px 20px rgba(52, 178, 255, 0.5);
     }
 }
