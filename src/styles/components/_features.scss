@@ -1,12 +1,18 @@
 .features {
     font-family: 'Roboto', sans-serif;
+    margin: 0px -15px;
+    padding: 98px 0px 0px 0px;
+    
+    
+
     &__wrap {
         display:  flex;
         margin-bottom: 174px;
+        justify-content: space-between;
     }
 
     &__col {
-       min-width: 370px;
+       width: 370px;
        height: 515px;
        display:flex;
        flex-direction: column;
@@ -14,22 +20,54 @@
        padding: 60px 38px 60px 38px;
        box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.04);
        border-radius: 5px;
+       margin: 0px 15px;
     }
+
+    &__col:hover {
+        box-shadow: 0px 10px 30px rgba(52, 178, 255, 0.16);  
+    } 
+
 
     &__btn {
      font-size: 16px;
     }
+
+    &__btn:hover {
+        
+        background-color: $secondary;
+        border: 1px solid $secondary;
+        
+        color: $white;
+       
+    }
+
     &__icon {
         width: 130px;
         height: 130px;
         margin-bottom: 35px;
         background-repeat: no-repeat;
         border: 8px solid $white;
-        background-color: $secondary;
+        background-color: rgba(52,178, 255, 0.1);;
+        //background-color: $secondary;
         border-radius: 50%;
-        opacity: 0.1;
+        //opacity: 0.1;
         box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.08);
+        background-position: 48% 48%;
+       // box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
     }
+
+    &__icon--data {
+        background-image: url('/src/img/data.svg');
+    }
+
+    &__icon--machine {
+        background-image: url('/src/img/machine learning.svg'); 
+    }
+
+    &__icon--intelligence {
+        background-image: url('/src/img/intelligence.svg');  
+    }
+
     &__title {
         font-family: 'Lato', sans-serif; 
         font-weight: 600;
@@ -53,16 +91,4 @@
   color: $secondary;
   text-align: center;
   line-height: 50px;
-}
-
-.data-icon {
-    background-image: url('/src/img/data.svg');
-}
-
-.machine-icon {
-    background-image: url('/src/img/machine learning.svg');  
-}
-
-.intelligence-icon {
-    background-image: url('/src/img/intelligence.svg');  
 }

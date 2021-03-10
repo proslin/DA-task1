@@ -1,11 +1,23 @@
+.button {
+  width: 148px;
+  height: 52px;
+  display: inline-block;
+  background-color: $secondary;
+  border-radius: 28px;
+  color: $white;
+  text-align: center;
+  line-height: 52px;
+}
+
+
 .header {
-  background-color:$primary;
+  background-color: $primary;
   color: $white;
   font-family: 'Roboto', sans-serif;
 
   &__container {
     max-width: 1508px;
-   // width: 100%;
+    // width: 100%;
     margin: 0 auto;
   }
 
@@ -15,18 +27,19 @@
 
   &__menu {
     display: flex;
-    align-items:center;
+    align-items: center;
     padding-top: 50px;
     justify-content: space-between;
     margin: 0px 0px 172px 0px;
   }
+
   &__slider {
-   width: 567px;
-   padding-bottom: 340px;
+    width: 567px;
+    padding-bottom: 340px;
   }
 
   &__slider-title {
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 56px;
     margin: 0px 0px 40px 0px;
@@ -50,7 +63,7 @@
 
   &__slider-video {
     display: flex;
-    align-items:center;
+    align-items: center;
     color: $white;
     font-weight: 500;
   }
@@ -61,38 +74,49 @@
     background-color: $white;
     border-radius: 50%;
     margin-right: 16px;
+    position: relative;
   }
 
-  &__slider-video-watch {
-
+  &__slider-video-play::before {
+    content: "";
+    border: 15px solid transparent;
+    border-left: 15px solid $secondary;
+    position: absolute;
+    top: 15px;
+    left: 25px;      
   }
+
+
+  &__slider-video-watch {}
 }
 
 ._container {
-  max-width: 1508px;
+  max-width: 1170px;
   //width: 100%;
   margin: 0 auto;
 }
 
 .menu {
   &__list {
-    display:flex;
+    display: flex;
     list-style: none;
-    
+
     li {
-     margin: 0px 0px 0px 30px;
+      margin: 0px 0px 0px 30px;
     }
   }
+
   &__link {
     font-size: 16px;
     line-height: 30px;
     color: $white;
+    padding: 7px 0px 7px 0px;
   }
 }
 
 .logo {
   display: flex;
-  align-items:center;
+  align-items: center;
 
   &__icon {
     width: 40px;
@@ -100,20 +124,10 @@
     background-image: url('/src/img/logo.svg');
     margin-right: 8px;
   }
+
   &__title {
     font-size: 30px;
     color: $white;
   }
-}
-
-.button {
-  width: 148px;
-  height: 52px;
-  display: inline-block;
-  background-color: $secondary;
-  border-radius: 28px;
-  color: $white;
-  text-align: center;
-  line-height: 52px;
 }
 

@@ -1,0 +1,59 @@
+.subscribe {
+    display: flex;
+    width: 1170px;
+    min-height: 319px;
+    font-family: 'Roboto', sans-serif;
+    border: 30px solid $white;
+    background-color:#EBF7FF;
+    border-radius: 10px;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2500px;
+    left: 360px;
+    //width: 100%;
+    
+    &__sign-up {
+     
+    }
+
+    &__sign-up-title {
+        font-family: 'Lato', sans-serif; 
+        font-weight: 700px;
+        font-size: 36px;
+        margin-bottom: 27px;
+    }
+
+    &__sign-up-subtitle {
+        color: #666666;
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 400px;
+    }
+     
+    &__input {
+     height: 76px;
+     display: inline-flex;
+    }
+
+    &__email {
+      height: 76px;
+      width: 337px;
+      border: 0;
+      color: #666666;
+      padding-left: 28px;
+      display: inline-block;
+    }
+
+    &__btn {
+      width: 81px;
+      height: 76px;
+      background-image: url('/src/img/send icon.svg');
+      background-color: $secondary;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0px 5px 5px 0px;
+      border: 0;
+    }
+}
