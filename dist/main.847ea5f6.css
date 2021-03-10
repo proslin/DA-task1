@@ -20,6 +20,10 @@ a {
   line-height: 52px;
 }
 
+.button:hover {
+  box-shadow: 0px 15px 20px rgba(52, 178, 255, 0.5);
+}
+
 .header {
   background-color: #074ECE;
   color: #fff;
@@ -76,6 +80,9 @@ a {
   margin-right: 16px;
   position: relative;
 }
+.header__slider-video-play:hover {
+  box-shadow: 0px 15px 20px rgba(52, 178, 255, 0.5);
+}
 .header__slider-video-play::before {
   content: "";
   border: 15px solid transparent;
@@ -102,6 +109,9 @@ a {
   color: #fff;
   padding: 7px 0px 7px 0px;
 }
+.menu__link:hover {
+  opacity: 0.8;
+}
 
 .logo {
   display: flex;
@@ -116,6 +126,9 @@ a {
 .logo__title {
   font-size: 30px;
   color: #fff;
+}
+.logo__title:hover {
+  opacity: 0.8;
 }
 
 .subscribe {
@@ -167,16 +180,36 @@ a {
   border-radius: 0px 5px 5px 0px;
   border: 0;
 }
+.subscribe__btn:hover {
+  box-shadow: 0px 15px 20px rgba(52, 178, 255, 0.4);
+}
 
 .features {
   font-family: "Roboto", sans-serif;
-  margin: 0px -15px;
   padding: 98px 0px 0px 0px;
+  margin-bottom: 174px;
 }
 .features__wrap {
   display: flex;
-  margin-bottom: 174px;
   justify-content: space-between;
+  margin: 0px -15px;
+}
+@media (max-width: 640px) {
+  .features .features__wrap {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 980px) {
+  .features .features__wrap {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .features .features__col {
+    margin-bottom: 30px;
+  }
+  .features .features__col:last-child {
+    margin-bottom: 0px;
+  }
 }
 .features__col {
   width: 370px;
@@ -298,6 +331,9 @@ a {
 .about-us__btn {
   height: 52px;
   line-height: 52px;
+}
+.about-us__btn:hover {
+  box-shadow: 0px 15px 20px rgba(52, 178, 255, 0.5);
 }
 
 .footer {
