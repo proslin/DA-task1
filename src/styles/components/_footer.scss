@@ -2,89 +2,74 @@
   //background-color: $primary;
   font-family: 'Roboto', sans-serif;
   color: $white;
-  padding-top: 374px;
   font-size: 16px;
+ 
   //padding: 20px;
-
-
+  //position: relative;
+  background-image: url('/src/img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   color: $white;
-  
-  overflow:hidden;
-  //margin-top: -150px;
+
+  //overflow: hidden;
+  margin-top: 150px;
   //margin-right: -150px;
   //padding-bottom: 100px;
 
 
-  &__child {
-    width: 100%;
-    height: 120%;
-    background-color: $primary;
-    background-size: contain;
-    //margin-right: 100px;
-   // margin-top: -400px;
-   transform :skew(3deg,-9deg);
-   padding-top: 260px;
-   //margin-left: -150px;
-   //margin-right: 150px;
-  // margin-bottom: 100px;
- // padding-right: 150px;
-   //padding-bottom: 100px;
-   border-radius: 4%;
-   //z-index: -1;
-
-  }
-
+  
 
   &__container {
     //display: flex;
-    transform :skew(-3deg,9deg);
+   // transform: skew(-3deg, 9deg);
+    //margin-top: -380px;
   }
 
   &__content {
-   display: flex;
-   padding-bottom: 119px;
-   //margin: 0px -15px;
+    display: flex;
+    padding-bottom: 119px;
+    //margin: 0px -15px;
   }
 
   @media (max-width: 980px) {
-  .footer__content {
-    flex-direction: column;
-    align-items: center;
+    .footer__content {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 20px;
+    }
   }
-
-
-}
 
   &__logo {
     width: 370px;
   }
-  
+
   @media (max-width: 980px) {
-  .footer__col {
-   align-items:center;
-   margin-bottom: 15px;
-   line-height: 16px;
-  }
+    .footer__col {
+      align-items: center;
+      margin-bottom: 15px;
+      line-height: 16px;
+    }
 
-  .footer__col:last-child {
-    margin-bottom: 0px;
-  }
+    .footer__col:last-child {
+      margin-bottom: 0px;
+    }
 
-  .logo {
-    margin-bottom: 15px;
-  }
-  
-  .footer__logo-subtitle {
-    margin-bottom: 15px;
-      }
-  .footer__socials {
-    margin-bottom: 15px;
-  }
+    .logo {
+      margin-bottom: 15px;
+    }
 
-  .footer__title  {
-    margin-bottom: 10px;
-  }
+    .footer__logo-subtitle {
+      margin-bottom: 15px;
+    }
+
+    .footer__socials {
+      margin-bottom: 15px;
+    }
+
+    .footer__title {
+      margin-bottom: 10px;
+    }
 
   }
 
@@ -108,12 +93,12 @@
     background-size: 200%;
     background-position: -22px -12px;
     margin-right: 15px;
-    
+
   }
 
   &__socials-fb {
-   
-    background-image: url('/src/img/fb.svg');   
+
+    background-image: url('/src/img/fb.svg');
   }
 
   &__socials-tw {
@@ -124,35 +109,43 @@
     background-image: url('/src/img/ins.svg');
   }
 
-  &__qlinks, &__about {
+  &__qlinks,
+  &__about {
     width: 170px;
   }
 
-  
+
   @media (max-width: 980px) {
-  .footer__about-list, .footer__qlinks-list {
-    display: flex;
-    
+
+    .footer__about-list,
+    .footer__qlinks-list {
+      display: flex;
+
+    }
+
+    .footer__qlinks-link,
+    .footer__about-link {
+      margin-right: 10px;
+    }
+
+    .footer__title {
+      font-size: 18px;
+    }
+
   }
 
-  .footer__qlinks-link, .footer__about-link {
-    margin-right: 10px;
-  }
 
-}  
-
-  
 
   &__list {
     list-style-type: none;
-    
+
   }
 
   &__link {
     color: $white;
     display: inline-block;
     padding: 12px 0px 12px 0px;
-    
+
   }
 
   &__title {
@@ -162,12 +155,12 @@
     margin-bottom: 38px;
   }
 
- 
+
 
   &__copyright {
-    
-    transform :skew(-3deg,9deg);
-    border-top: 1px solid rgba(255,255,255, 0.08);
+
+    //transform: skew(-3deg, 9deg);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
     //opacity: 0.08;
     color: $white;
   }
@@ -175,10 +168,11 @@
   &__copyright-container {
     display: flex;
     justify-content: space-between;
+    background-color: $primary;
     height: 70px;
     line-height: 70px;
     font-weight: 300;
-   // opacity: 1.0;
+    // opacity: 1.0;
   }
 
   @media (max-width: 980px) {
@@ -191,6 +185,11 @@
     color: $white;
     opacity: 1.0;
   }
-  
+
 }
 
+@media (max-width: 980px) {
+  .footer {
+    padding-top: 20px;
+  }
+}

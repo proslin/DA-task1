@@ -1,6 +1,7 @@
 .about-us {
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 311px;
+    //margin-bottom: 311px;
+   // margin-bottom: 111px;
     //position: relative;
     
     &__wrap {
@@ -94,4 +95,10 @@
     &__btn:hover {
         box-shadow: 0px 15px 20px rgba(52, 178, 255, 0.5);
     }
+}
+
+@media (max-width: 980px) {
+ .about-us {
+     margin-bottom: 20px;
+ }
 }
